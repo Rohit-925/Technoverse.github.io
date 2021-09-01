@@ -699,10 +699,10 @@ h1 {
   width: 100%;
   height: 100%;
 }
-.container1 .box1 .vidbox1 video {
+.container1 .box1 .vidbox1 img {
   position: absolute;
   top: 0;
-  left: 0;
+  left: -60%;
   width: 100%;
   height: 100%;
   object-fit: cover;
@@ -772,7 +772,7 @@ h1 {
   width: 100%;
   height: 100%;
 }
-.container2 .box2 .vidbox2 video {
+.container2 .box2 .vidbox2 img {
   position: absolute;
   top: 0;
   left: 0;
@@ -845,7 +845,7 @@ h1 {
   width: 100%;
   height: 100%;
 }
-.container3 .box3 .vidbox3 video {
+.container3 .box3 .vidbox3 img {
   position: absolute;
   top: 0;
   left: 0;
@@ -918,7 +918,7 @@ h1 {
   width: 100%;
   height: 100%;
 }
-.container4 .box4 .vidbox4 video {
+.container4 .box4 .vidbox4 img {
   position: absolute;
   top: 0;
   left: 0;
@@ -969,7 +969,7 @@ h1 {
   font-weight: bold;
   font-size: 18px;
 }
-.v4box video {
+.v4box img {
   position: relative;
   width: 530px;
   height: 300px;
@@ -977,7 +977,7 @@ h1 {
   margin-left: 40px;
   margin-top: 30px;
 }
-.v4box1 video {
+.v4box1 img {
   position: relative;
   width: 530px;
   height: 300px;
@@ -996,8 +996,8 @@ h1 {
 }
 .container5 .box5 {
   position: relative;
-  width: 1000px;
-  height: 550px;
+  width: 800px;
+  height: 600px;
   background: black;
 }
 .container5 .box5 .vidbox5 {
@@ -1007,13 +1007,12 @@ h1 {
   width: 100%;
   height: 100%;
 }
-.container5 .box5 .vidbox5 video {
+.container5 .box5 .vidbox5 img {
   position: absolute;
   top: 0;
   left: 0;
   width: 100%;
   height: 100%;
-  object-fit: cover;
 }
 .container5 .box5 .contentbox5 {
   position: absolute;
@@ -1069,8 +1068,8 @@ h1 {
 }
 .container6 .box6 {
   position: relative;
-  width: 1000px;
-  height: 550px;
+  width: 800px;
+  height: 600px;
   background: black;
 }
 .container6 .box6 .vidbox6 {
@@ -1080,7 +1079,7 @@ h1 {
   width: 100%;
   height: 100%;
 }
-.container6 .box6 .vidbox6 video {
+.container6 .box6 .vidbox6 img {
   position: absolute;
   top: 0;
   left: 0;
@@ -1142,8 +1141,8 @@ h1 {
 }
 .container7 .box7 {
   position: relative;
-  width: 1000px;
-  height: 550px;
+  width: 700px;
+  height: 700px;
   background: black;
 }
 .container7 .box7 .vidbox7 {
@@ -1153,7 +1152,7 @@ h1 {
   width: 100%;
   height: 100%;
 }
-.container7 .box7 .vidbox7 video {
+.container7 .box7 .vidbox7 img {
   position: absolute;
   top: 0;
   left: 0;
@@ -1204,7 +1203,7 @@ h1 {
   font-weight: bold;
   font-size: 18px;
 }
-.v4box3 video {
+.v4box3 img {
   position: relative;
   width: 530px;
   height: 300px;
@@ -1212,7 +1211,7 @@ h1 {
   margin-left: 40px;
   margin-top: 30px;
 }
-.v4box4 video {
+.v4box4 img {
   position: relative;
   width: 530px;
   height: 300px;
@@ -1242,7 +1241,7 @@ h1 {
   width: 100%;
   height: 100%;
 }
-.container8 .box8 .vidbox8 video {
+.container8 .box8 .vidbox8 img {
   position: absolute;
   top: 0;
   left: 0;
@@ -1305,7 +1304,7 @@ h1 {
 .container9 .box9 {
   position: relative;
   width: 1000px;
-  height: 550px;
+  height: 600px;
   background: black;
 }
 .container9 .box9 .vidbox9 {
@@ -1315,7 +1314,7 @@ h1 {
   width: 100%;
   height: 100%;
 }
-.container9 .box9 .vidbox9 video {
+.container9 .box9 .vidbox9 img {
   position: absolute;
   top: 0;
   left: 0;
@@ -1441,7 +1440,7 @@ h1 {
   width: 100%;
   height: 100%;
 }
-.container10 .box10 .vidbox10 video {
+.container10 .box10 .vidbox10 img {
   position: absolute;
   top: 0;
   left: 0;
@@ -1514,7 +1513,7 @@ h1 {
   width: 100%;
   height: 100%;
 }
-.container11 .box11 .vidbox11 video {
+.container11 .box11 .vidbox11 img {
   position: absolute;
   top: 0;
   left: 0;
@@ -1579,7 +1578,7 @@ h1 {
   width: 100%;
 }
 .section4 {
-  height: 350vh;
+  height: 400vh;
   width: 100%;
 }
 .section5 {
@@ -2003,9 +2002,7 @@ h1 {
     margin-top: 10%;
     margin-left: 10px;
   }
-  .v4box4 video {
-    margin-left: 40px;
-  }
+
   .text35 {
     margin-left: 40px;
   }
@@ -2083,5 +2080,13 @@ h1 {
     margin-left: 70%;
     margin-top: 3%;
     cursor: pointer;
+  }
+  .v4box4 img {
+    position: relative;
+    width: 530px;
+    height: 300px;
+    background: black;
+    margin-left: 0;
+    margin-top: 30px;
   }
 }
